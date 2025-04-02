@@ -1,14 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import Navigations from './src/navigations/Navigations'
 
-const App = () => {
+const LiveMeetScreen = () => {
   return (
-      <Navigations/>
-    
+    <View>
+      <Text>LiveMeetScreen</Text>
+    </View>
   )
 }
 
-export default App
+export default LiveMeetScreen
 
 const styles = StyleSheet.create({})
